@@ -7,5 +7,5 @@ RUN wget https://github.com/radkesvat/ReverseTlsTunnel/releases/download/V7.1/v7
 RUN unzip v7.1_linux_amd.zip
 RUN chmod +x ./RTT
 
-ENV TZ=Asia/Shanghai
+ENV TZ=Asia/Tehran
 CMD [ "/root/RTT", "-config", "/etc/xray/config.json" ]
